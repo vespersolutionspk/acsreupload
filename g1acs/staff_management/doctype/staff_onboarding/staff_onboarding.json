@@ -98,9 +98,7 @@
    "default": "Today",
    "fieldname": "dt7",
    "fieldtype": "Date",
-   "label": "Date",
-   "read_only": 1,
-   "set_only_once": 1
+   "label": "Date"
   },
   {
    "fieldname": "s1n",
@@ -118,8 +116,7 @@
    "default": "Today",
    "fieldname": "dt9",
    "fieldtype": "Date",
-   "label": "Date",
-   "read_only": 1
+   "label": "Date"
   },
   {
    "fieldname": "s2n",
@@ -164,7 +161,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2020-03-03 06:33:41.867474",
+ "modified": "2021-07-02 19:50:43.698975",
  "modified_by": "Administrator",
  "module": "Staff Management",
  "name": "Staff Onboarding",

@@ -167,19 +167,19 @@
    "fieldname": "short_term_goals",
    "fieldtype": "Table",
    "label": "Short Term Goals",
-   "options": "Goal Link"
+   "options": "Goal Tab"
   },
   {
    "fieldname": "medium_term_goals",
    "fieldtype": "Table",
    "label": "Medium Term Goals",
-   "options": "Goal Link"
+   "options": "Goal Tab"
   },
   {
    "fieldname": "long_term_goals",
    "fieldtype": "Table",
    "label": "Long Term Goals",
-   "options": "Goal Link"
+   "options": "Goal Tab"
   },
   {
    "fieldname": "services_and_interventions",
@@ -340,7 +340,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2020-03-03 09:10:59.472218",
+ "modified": "2021-07-02 10:20:45.529703",
  "modified_by": "Administrator",
  "module": "Participants",
  "name": "Support Plan",

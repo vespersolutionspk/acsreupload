@@ -22,7 +22,7 @@
   {
    "allow_in_quick_entry": 1,
    "fieldname": "outcome",
-   "fieldtype": "Data",
+   "fieldtype": "Small Text",
    "in_list_view": 1,
    "label": "Outcome"
   },
@@ -30,7 +30,7 @@
    "allow_in_quick_entry": 1,
    "fetch_from": "goal.goal_achievement_strategy",
    "fieldname": "goal_achievement_strategy",
-   "fieldtype": "Data",
+   "fieldtype": "Small Text",
    "in_list_view": 1,
    "label": "Strategy"
   }
@@ -38,7 +38,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2020-05-28 04:03:56.319044",
+ "modified": "2021-07-03 03:59:29.486516",
  "modified_by": "Administrator",
  "module": "Participants",
  "name": "Goal Achieve",

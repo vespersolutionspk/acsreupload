@@ -8,6 +8,7 @@
  "field_order": [
   "name1",
   "participant",
+  "relationship",
   "primary_contact_number",
   "secondary_contact_number",
   "email"
@@ -41,11 +42,16 @@
    "fieldtype": "Data",
    "label": "Email",
    "options": "Email"
+  },
+  {
+   "fieldname": "relationship",
+   "fieldtype": "Data",
+   "label": "Relationship"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-06-10 14:07:17.908055",
+ "modified": "2021-06-25 20:09:38.007575",
  "modified_by": "Administrator",
  "module": "Participants",
  "name": "Relationship",

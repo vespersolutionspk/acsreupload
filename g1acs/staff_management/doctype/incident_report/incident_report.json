@@ -1,6 +1,6 @@
 {
  "actions": [],
- "autoname": "format:Incident-Report-{#####}",
+ "autoname": "format:Incident-Report-{participant}-{#####}",
  "creation": "2021-01-13 17:29:14.733079",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -8,7 +8,7 @@
  "field_order": [
   "bd1",
   "bd2",
-  "primpar",
+  "participant",
   "participants_involved",
   "primstaff",
   "staff_involved",
@@ -213,12 +213,12 @@
   {
    "fieldname": "bd4",
    "fieldtype": "HTML",
-   "label": "bd4",
-   "options": "<h5>Details of involved person</h5>"
+   "label": "bd4"
   },
   {
    "fieldname": "section_break_13",
-   "fieldtype": "Section Break"
+   "fieldtype": "Section Break",
+   "label": "Details of involved person"
   },
   {
    "fieldname": "dt8",
@@ -255,12 +255,12 @@
   {
    "fieldname": "dt13",
    "fieldtype": "Data",
-   "label": "surname"
+   "label": "Surname"
   },
   {
    "fieldname": "dt14",
    "fieldtype": "Select",
-   "label": "gender",
+   "label": "Gender",
    "options": "Male\nFemale\nOther"
   },
   {
@@ -303,12 +303,12 @@
   {
    "fieldname": "bd6",
    "fieldtype": "HTML",
-   "label": "bd6",
-   "options": "<h5>Cause of Injury</h5>"
+   "label": "bd6"
   },
   {
    "fieldname": "section_break_30",
-   "fieldtype": "Section Break"
+   "fieldtype": "Section Break",
+   "label": "Cause of Injury"
   },
   {
    "default": "0",
@@ -798,9 +798,7 @@
   },
   {
    "fieldname": "bdd",
-   "fieldtype": "HTML",
-   "label": "bdd",
-   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">Signature</label>"
+   "fieldtype": "Section Break"
   },
   {
    "fieldname": "bdd1",
@@ -914,8 +912,7 @@
    "default": "Today",
    "fieldname": "dt113",
    "fieldtype": "Date",
-   "label": "Date",
-   "read_only": 1
+   "label": "Date"
   },
   {
    "fieldname": "dt114",
@@ -931,13 +928,13 @@
   {
    "fieldname": "participants_involved",
    "fieldtype": "Table MultiSelect",
-   "label": "Participants Involved",
+   "label": "Additional Participants Involved",
    "options": "Participant Multi Link"
   },
   {
    "fieldname": "staff_involved",
    "fieldtype": "Table MultiSelect",
-   "label": "Staff Involved",
+   "label": "Additional Staff Members Involved",
    "options": "User Multi Link"
   },
   {
@@ -963,8 +960,7 @@
    "default": "Today",
    "fieldname": "date2",
    "fieldtype": "Date",
-   "label": "Date",
-   "read_only": 1
+   "label": "Date"
   },
   {
    "depends_on": "dt97",
@@ -1019,21 +1015,21 @@
    "label": "What steps were taken immediately after the incident?"
   },
   {
-   "fieldname": "primpar",
-   "fieldtype": "Link",
-   "label": "Primary Participant",
-   "options": "Participant"
-  },
-  {
    "fieldname": "primstaff",
    "fieldtype": "Link",
    "label": "Primary Staff Member Involved",
    "options": "User"
+  },
+  {
+   "fieldname": "participant",
+   "fieldtype": "Link",
+   "label": "Primary Participant",
+   "options": "Participant"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-06-13 07:48:05.558041",
+ "modified": "2021-07-15 12:18:27.945314",
  "modified_by": "Administrator",
  "module": "Staff Management",
  "name": "Incident Report",

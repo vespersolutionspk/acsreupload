@@ -227,6 +227,7 @@
   "details29",
   "section_break_216",
   "dt290",
+  "dt290a",
   "column_break_218",
   "check30",
   "column_break_220",
@@ -266,7 +267,9 @@
   "bd332ca",
   "section_break_255",
   "body1",
-  "ermt"
+  "ermt",
+  "ipop",
+  "lpop"
  ],
  "fields": [
   {
@@ -1519,11 +1522,33 @@
   {
    "fieldname": "column_break_8",
    "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.check30 == 'Yes'",
+   "fieldname": "dt290a",
+   "fieldtype": "Data",
+   "label": "If yes, what sort of weapons? Are they secure?"
+  },
+  {
+   "fieldname": "ipop",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "ipop",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "lpop",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "lpop",
+   "print_hide": 1,
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2020-04-27 20:50:32.916816",
+ "modified": "2021-07-18 18:03:05.727812",
  "modified_by": "Administrator",
  "module": "Participants",
  "name": "RMC Model",

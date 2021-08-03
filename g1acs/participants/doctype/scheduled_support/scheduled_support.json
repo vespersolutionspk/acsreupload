@@ -14,28 +14,28 @@
   {
    "allow_in_quick_entry": 1,
    "fieldname": "support",
-   "fieldtype": "Data",
+   "fieldtype": "Text",
    "in_list_view": 1,
    "label": "Support"
   },
   {
    "allow_in_quick_entry": 1,
    "fieldname": "description_of_support",
-   "fieldtype": "Data",
+   "fieldtype": "Text",
    "in_list_view": 1,
    "label": "Description of support"
   },
   {
    "allow_in_quick_entry": 1,
    "fieldname": "price_and_payment_information",
-   "fieldtype": "Data",
+   "fieldtype": "Text",
    "in_list_view": 1,
    "label": "Price and payment information"
   },
   {
    "allow_in_quick_entry": 1,
    "fieldname": "how_the_support_will_be_provided",
-   "fieldtype": "Data",
+   "fieldtype": "Text",
    "in_list_view": 1,
    "label": "How the support will be provided"
   }
@@ -43,7 +43,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2020-01-30 02:03:01.255856",
+ "modified": "2021-06-25 00:05:57.413120",
  "modified_by": "Administrator",
  "module": "Participants",
  "name": "Scheduled Support",

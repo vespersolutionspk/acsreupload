@@ -9,8 +9,9 @@
  "field_order": [
   "ndisplan",
   "participant",
-  "plan_state_date",
-  "notes"
+  "plan_start_date",
+  "notes",
+  "version"
  ],
  "fields": [
   {
@@ -30,14 +31,19 @@
    "label": "Notes"
   },
   {
-   "fieldname": "plan_state_date",
+   "fieldname": "version",
+   "fieldtype": "Data",
+   "label": "Version"
+  },
+  {
+   "fieldname": "plan_start_date",
    "fieldtype": "Date",
-   "label": "Plan State Date"
+   "label": "Plan Start Date"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2020-03-03 09:11:28.051395",
+ "modified": "2021-07-02 19:33:42.100233",
  "modified_by": "Administrator",
  "module": "Participants",
  "name": "NDIS Plan",

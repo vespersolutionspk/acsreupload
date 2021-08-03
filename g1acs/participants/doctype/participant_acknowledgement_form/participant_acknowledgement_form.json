@@ -245,8 +245,7 @@
    "fieldname": "signature",
    "fieldtype": "Signature",
    "in_list_view": 1,
-   "label": "Signature",
-   "reqd": 1
+   "label": "Signature"
   },
   {
    "default": "Today",
@@ -364,7 +363,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2020-03-03 09:11:06.219418",
+ "modified": "2021-06-29 01:08:52.896401",
  "modified_by": "Administrator",
  "module": "Participants",
  "name": "Participant Acknowledgement Form",

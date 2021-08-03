@@ -22,7 +22,11 @@
   "area",
   "state",
   "postcode",
-  "date_of_birth"
+  "date_of_birth",
+  "tipop",
+  "tlpop",
+  "aipop",
+  "alpop"
  ],
  "fields": [
   {
@@ -117,6 +121,38 @@
    "hidden": 1,
    "label": "finame",
    "read_only": 1
+  },
+  {
+   "fieldname": "tipop",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "tipop",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "tlpop",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "tlpop",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "aipop",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "aipop",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "alpop",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "alpop",
+   "print_hide": 1,
+   "read_only": 1
   }
  ],
  "links": [
@@ -138,7 +174,7 @@
   {
    "group": "Manage Participants",
    "link_doctype": "Incident Report",
-   "link_fieldname": "primpar"
+   "link_fieldname": "participant"
   },
   {
    "group": "Manage Participants",
@@ -216,7 +252,7 @@
    "link_fieldname": "participant"
   }
  ],
- "modified": "2021-06-13 07:52:12.574549",
+ "modified": "2021-07-18 17:07:57.107590",
  "modified_by": "Administrator",
  "module": "Participants",
  "name": "Participant",

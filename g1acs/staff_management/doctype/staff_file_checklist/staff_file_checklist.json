@@ -1,6 +1,7 @@
 {
  "actions": [],
- "autoname": "format:{user} File Checklist {###}",
+ "allow_rename": 1,
+ "autoname": "format:{full_name} File Checklist {###}",
  "creation": "2021-02-28 19:03:50.826340",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -38,12 +39,6 @@
    "read_only": 1
   },
   {
-   "fieldname": "file_checklist",
-   "fieldtype": "Table",
-   "label": "File Checklist",
-   "options": "File Checklist"
-  },
-  {
    "fetch_from": "supervisor.full_name",
    "fieldname": "supervisor",
    "fieldtype": "Link",
@@ -75,11 +70,17 @@
   {
    "fieldname": "signature_11",
    "fieldtype": "Signature"
+  },
+  {
+   "fieldname": "file_checklist",
+   "fieldtype": "Table",
+   "label": "File Checklist",
+   "options": "File Checklist"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2020-03-02 20:11:45.742429",
+ "modified": "2021-07-05 15:32:35.053557",
  "modified_by": "Administrator",
  "module": "Staff Management",
  "name": "Staff File Checklist",

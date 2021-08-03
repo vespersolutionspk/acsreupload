@@ -58,6 +58,7 @@
   "column_break_49",
   "hearing_impairment",
   "visual_impairment",
+  "other",
   "section_break_53",
   "communication_section",
   "communicationyn",
@@ -320,10 +321,11 @@
    "options": "Improvement Areas"
   },
   {
+   "default": "N/A",
    "fieldname": "primary_disability",
    "fieldtype": "Select",
    "label": "Primary Disability",
-   "options": "Acute Brain Injury\nAnxiety\nAquired Brain Injury\nAutism\nBi-polar disorder\nBorderline Personality Disorder\nCerebral Palsy\nChronic Lung Disease\nCollapse of Vertibra\nCraniosynostosis\nDepression\nDevelopmental Delay\nDown Syndrome\nEpilepsy\nHearing Impairment\nHypothyroidism\nIntellectual Disability\nMajor Depressive Disorder\nMental Health Issues\nMonoplegia\nMultiple Sclerosis\nMuscular Dystrophy\nParanoidski Phresnia\nPEG fed\nRheumatoid Arhtritis\nSchizophrenia\nScoliosos\nShashi - Pena Syndrome\nSpinal Injury\nVP Shunt\nVSD"
+   "options": "N/A\nAcute Brain Injury\nAnxiety\nAquired Brain Injury\nAutism\nBi-polar disorder\nBorderline Personality Disorder\nCerebral Palsy\nChronic Lung Disease\nCollapse of Vertibra\nCraniosynostosis\nDepression\nDevelopmental Delay\nDown Syndrome\nEpilepsy\nHearing Impairment\nHypothyroidism\nIntellectual Disability\nMajor Depressive Disorder\nMental Health Issues\nMonoplegia\nMultiple Sclerosis\nMuscular Dystrophy\nParanoidski Phresnia\nPEG fed\nRheumatoid Arhtritis\nSchizophrenia\nScoliosos\nShashi - Pena Syndrome\nSpinal Injury\nVP Shunt\nVSD"
   },
   {
    "default": "0",
@@ -356,10 +358,11 @@
    "options": "Strength"
   },
   {
+   "default": "N/A",
    "fieldname": "secondary_disability",
    "fieldtype": "Select",
    "label": "Secondary Disability",
-   "options": "Acute Brain Injury\nAnxiety\nAquired Brain Injury\nAutism\nBi-polar disorder\nBorderline Personality Disorder\nCerebral Palsy\nChronic Lung Disease\nCollapse of Vertibra\nCraniosynostosis\nDepression\nDevelopmental Delay\nDown Syndrome\nEpilepsy\nHearing Impairment\nHypothyroidism\nIntellectual Disability\nMajor Depressive Disorder\nMental Health Issues\nMonoplegia\nMultiple Sclerosis\nMuscular Dystrophy\nParanoidski Phresnia\nPEG fed\nRheumatoid Arhtritis\nSchizophrenia\nScoliosos\nShashi - Pena Syndrome\nSpinal Injury\nVP Shunt\nVSD"
+   "options": "N/A\nAcute Brain Injury\nAnxiety\nAquired Brain Injury\nAutism\nBi-polar disorder\nBorderline Personality Disorder\nCerebral Palsy\nChronic Lung Disease\nCollapse of Vertibra\nCraniosynostosis\nDepression\nDevelopmental Delay\nDown Syndrome\nEpilepsy\nHearing Impairment\nHypothyroidism\nIntellectual Disability\nMajor Depressive Disorder\nMental Health Issues\nMonoplegia\nMultiple Sclerosis\nMuscular Dystrophy\nParanoidski Phresnia\nPEG fed\nRheumatoid Arhtritis\nSchizophrenia\nScoliosos\nShashi - Pena Syndrome\nSpinal Injury\nVP Shunt\nVSD"
   },
   {
    "default": "0",
@@ -502,7 +505,7 @@
   },
   {
    "fieldname": "otherassistance",
-   "fieldtype": "Data",
+   "fieldtype": "Small Text",
    "label": "Other"
   },
   {
@@ -864,7 +867,7 @@
   },
   {
    "fieldname": "bh15",
-   "fieldtype": "Data",
+   "fieldtype": "Small Text",
    "label": "Other:"
   },
   {
@@ -1050,11 +1053,16 @@
    "fieldname": "trigc8",
    "fieldtype": "Data",
    "label": "Possible triggers/ Medical care:"
+  },
+  {
+   "fieldname": "other",
+   "fieldtype": "Data",
+   "label": "Other"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2020-03-19 07:29:00.001691",
+ "modified": "2021-06-29 02:38:54.766292",
  "modified_by": "Administrator",
  "module": "Participants",
  "name": "Assessment Form",

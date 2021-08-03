@@ -105,7 +105,7 @@
    "read_only": 1
   },
   {
-   "fetch_from": "user.mobile_no",
+   "fetch_from": "user.mobile_number",
    "fieldname": "mobile_number",
    "fieldtype": "Read Only",
    "label": "Mobile Number",
@@ -459,7 +459,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2020-03-03 01:27:43.799321",
+ "modified": "2021-07-03 17:26:25.369817",
  "modified_by": "Administrator",
  "module": "Staff Management",
  "name": "Staff Screening",

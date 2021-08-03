@@ -544,7 +544,9 @@
   "data8",
   "data9",
   "data10",
-  "ermt"
+  "ermt",
+  "ipop",
+  "lpop"
  ],
  "fields": [
   {
@@ -563,7 +565,7 @@
    "fieldname": "bd3",
    "fieldtype": "HTML",
    "label": "bd3",
-   "options": "<p>Amazing Care Services has adopted the <b>ORCA Approach </b>to ensure consistent application of risk management by\nall staff, in the:</p><ul>\n<li>execution of 3 years strategic plan,</li>\n<li>achievement of business objectives, and</li>\n<li>day-to-day operations.</li>\n</ul>\n<br><br>\n<b>ORCA </b>represents:<br>\n<b>O          OBJECTIVES</b><br>\nGoals and results that Starlight Home Care aims to achieve<br>\n<b>R          RISKS</b><br>\nAny potential event which could prevent\nthe achievement of an objective<br>\n<b>C          CONTROL</b><br>\nManagement\u2019s response to risks<br>\n<b>A          ALIGNMENT</b><br>\nAlignment of Starlight Home Care objectives, risks\nand controls across the enterprise determined by\nits appetites and tolerances for risks<br><p></p>"
+   "options": "<p>Amazing Care Services has adopted the <b>ORCA Approach </b>to ensure consistent application of risk management by\nall staff, in the:</p><ul>\n<li>execution of 3 years strategic plan,</li>\n<li>achievement of business objectives, and</li>\n<li>day-to-day operations.</li>\n</ul>\n<br><br>\n<b>ORCA </b>represents:<br>\n<b>O          OBJECTIVES</b><br>\nGoals and results that Amazing Care Services aims to achieve<br>\n<b>R          RISKS</b><br>\nAny potential event which could prevent\nthe achievement of an objective<br>\n<b>C          CONTROL</b><br>\nManagement\u2019s response to risks<br>\n<b>A          ALIGNMENT</b><br>\nAlignment of Amazing Care Services objectives, risks\nand controls across the enterprise determined by\nits appetites and tolerances for risks<br><p></p>"
   },
   {
    "fieldname": "section_break_4",
@@ -3066,11 +3068,27 @@
    "fieldtype": "Table",
    "label": "Hazard Identification and Risk Assessment",
    "options": "ERMT"
+  },
+  {
+   "fieldname": "ipop",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "ipop",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "lpop",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "lpop",
+   "print_hide": 1,
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2020-05-28 14:51:52.923178",
+ "modified": "2021-07-19 11:36:50.404347",
  "modified_by": "Administrator",
  "module": "Participants",
  "name": "ERM Plan",

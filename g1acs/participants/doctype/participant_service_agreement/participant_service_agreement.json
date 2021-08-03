@@ -395,8 +395,7 @@
    "default": "Today",
    "fieldname": "pdt1",
    "fieldtype": "Date",
-   "label": "Dated",
-   "read_only": 1
+   "label": "Dated"
   },
   {
    "fieldname": "column_break_56",
@@ -411,8 +410,7 @@
    "default": "Today",
    "fieldname": "pdt2",
    "fieldtype": "Date",
-   "label": "Dated",
-   "read_only": 1
+   "label": "Dated"
   },
   {
    "fieldname": "section_break_60",
@@ -486,7 +484,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2020-04-27 20:25:51.449830",
+ "modified": "2021-07-03 14:11:16.346130",
  "modified_by": "Administrator",
  "module": "Participants",
  "name": "Participant Service Agreement",
